@@ -7,7 +7,7 @@
 }
 
 .navigation_container {
-    width: 200px;
+    width: 150px;
     position: absolute;
 }
 
@@ -17,16 +17,16 @@
 }
 
 .navigation_elements {
-    margin-top: 50px;
+    margin-top: 40px;
 }
 
 .nav_element {
     font-family: "Century Gothic";
     color: #84B4BD;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 19px;
     display: flex;
-    padding: 30px 10px
+    padding: 20px 10px
 }
 
 
@@ -40,8 +40,8 @@ info_container {
 
 .info_box {
     position: absolute;
-    top: 550px;
-    left: 200px;
+    top: 450px;
+    left: 165px;
     opacity: 80%;
     text-align: center;
 }
@@ -50,10 +50,10 @@ info_container {
     font-family: "Century Gothic";
     color: black;
     background: #F3F4F7;
-    font-size: 20px;
-    width: 450px;
-    height: 150px;
-    padding: 40px 20px;
+    font-size: 15px;
+    width: 300px;
+    height: 130px;
+    padding: 25px 20px;
     border-radius: 5px;
 }
 
