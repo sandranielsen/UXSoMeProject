@@ -6,14 +6,18 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-y: hidden;
+}
+
 .navigation_container {
     width: 150px;
     position: absolute;
 }
 
 .nav_logo {
-    max-width: 80%;
-    margin: 10px;
+    max-width: 85%;
+    margin: 20px;
 }
 
 .navigation_elements {
@@ -24,14 +28,9 @@
     font-family: "Century Gothic";
     color: #84B4BD;
     text-decoration: none;
-    font-size: 19px;
+    font-size: 20px;
     display: flex;
-    padding: 20px 10px
-}
-
-
-info_container {
-    position: relative;
+    padding: 35px 10px
 }
 
 .info_image {
