@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="/assets/dateTimePicker.css">
+    <link rel="stylesheet" href="/css/mystyle.css">
+    <link rel="stylesheet" href="/css/appointments.css">
+</head>
+
+<body>
+
+    <header>
+        <nav class="navigation_container" id="navigation">
+            <a href="/index.html"><img src="/media/baaa.png" alt="Logo" class="nav_logo"></a>
+            <div class="navigation_elements">
+                <a class="nav_element" href="/subpages/appointments.html" id="elementBGappointment">Book an Appointment</a>
+                <a class="nav_element" href="/subpages/faq.html" id="elementBGfaq">FAQ</a>
+                <a class="nav_element" href="/subpages/contact.html" id="elementBGcontact">Contact Me</a>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <div class="button">
+            <ul class="social">
+                <li id="da_click" class="button_lang">DA</li>
+                <li id="da_click" class="separator">/</li>
+                <li id="en_click" class="button_lang current_lang">INT</li>
+            </ul>
+        </div>
+
+        <section class="appointment_container">
+            <p class="appointment_text">
+                Did you not find the answer that you we looking for or do you have any further questions? Book an appointment here.
+            </p>
+
+            <!-- source: https://www.phpjabbers.com/free-availability-calendar-script/ -->
+            <div class="calendar_container">
+                <div class="row">
+                    <div class="col-xss-4">
+                        <div id="basic" data-toggle="calendar"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="time_container">
+                <h4 class="time_text">Available time slots</h4>
+
+                <table>
+                    <tr>
+                        <th>8.30</th>
+                        <th>10.00</th>
+                        <th>12.00</th>
+                        <th>13.30</th>
+                    </tr>
+                    <tr>
+                        <th>8.45</th>
+                        <th>10.15</th>
+                        <th>12.15</th>
+                        <th>13.45</th>
+                    </tr>
+                    <tr>
+                        <th>9.00</th>
+                        <th>10.30</th>
+                        <th>12.30</th>
+                        <th>14.00</th>
+                    </tr>
+                    <tr>
+                        <th>9.15</th>
+                        <th>10.45</th>
+                        <th>12.45</th>
+                        <th>14.15</th>
+                    </tr>
+                    <tr>
+                        <th>9.30</th>
+                        <th>11.00</th>
+                        <th>13.00</th>
+                        <th>14.30</th>
+                    </tr>
+                    <tr>
+                        <th>9.45</th>
+                        <th>11.15</th>
+                        <th>13.15</th>
+                        <th>14.45</th>
+                    </tr>
+                </table>
+            </div>
+
+            <button class="book_button">Book</button>
+
+        </section>
+
+
+    </main>
+    <script type="text/javascript" src="/scripts/components/jquery.min.js"></script>
+    <script type="text/javascript" src="/scripts/dateTimePicker.min.js"></script>
+    <script type="text/javascript" src="/js/js.js"></script>
+    <script>
+        /** source: https://www.phpjabbers.com/free-availability-calendar-script/ **/
+
+        $(document).ready(function() {
+            $('#basic').calendar();
+            $('#glob-data').calendar({
+                unavailable: ['*-*-8', '*-*-10']
+            });
+            $('#custom-first-day').calendar({
+                day_first: 1,
+                onSelectDate: function(date, month, year) {
+                    alert([year, month, date].join('-') + ' is: ' + this.isAvailable(date, month, year));
+                }
+            });
+
+        });
+    </script>
+</body></html>

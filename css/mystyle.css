@@ -20,10 +20,6 @@ body {
     margin: 20px;
 }
 
-.navigation_elements {
-    margin-top: 40px;
-}
-
 .nav_element {
     font-family: "Century Gothic";
     color: #84B4BD;
@@ -56,3 +52,35 @@ body {
     border-radius: 5px;
 }
 
+.button {
+    position: absolute;
+    right: 30px;
+}
+
+#en, #da {
+    display: none;
+}
+
+.button_lang {
+    font-family: "Century Gothic";
+    margin: 20px 0;
+    float: right;
+    color: #939393;
+    position: relative;
+}
+
+.separator {
+    font-family: "Century Gothic";
+    margin: 20px 4px;
+    float: right;
+    color: #939393;
+}
+
+.current_lang {
+    color: #84B4BD;
+}
+
+ul li {
+    width: auto;
+    display: inline;
+}

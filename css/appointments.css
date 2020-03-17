@@ -1,0 +1,67 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F7;
+}
+
+.appointment_container {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    font-size: 15px;
+    padding: 50px 25px;
+    width: 350px;
+    float: right;
+    text-align: justify;
+}
+
+.col-xss-4 {
+    margin: 10px 0;
+    color: #84B4BD;
+    font-family: "Century Gothic";
+}
+
+.time_text {
+    font-family: "Century Gothic";
+    font-size: 17px;
+     margin: 10px 0;
+}
+
+table, th, td {
+  border: 1px solid #84B4BD;
+    background-color: white;
+}
+
+table {
+    color: #84B4BD;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.book_button {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 17px;
+    background-color: #84B4BD;
+    padding: 8px 20px;
+    margin: 10px 105px;
+    border-radius: 5px;
+    box-shadow: 0px;
+    border: none;
+}
+
+
+
+
