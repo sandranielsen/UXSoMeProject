@@ -13,55 +13,145 @@ body {
 .appointment_container {
     font-family: "Century Gothic";
     color: #84B4BD;
-    font-size: 15px;
-    padding: 50px 25px;
-    width: 350px;
+    font-size: 3.5vw;
+    padding: 9vw 5vw;
+    width: 68%;
     float: right;
     text-align: justify;
 }
 
 .col-xss-4 {
-    margin: 10px 0;
-    color: #84B4BD;
+    margin: 3vw 0;
+    color: #939393;
     font-family: "Century Gothic";
 }
+
 
 .time_text {
     font-family: "Century Gothic";
-    font-size: 17px;
-     margin: 10px 0;
+    font-size: 4vw;
+    margin: 10px 0;
 }
 
-table, th, td {
-  border: 1px solid #84B4BD;
+table,
+th,
+td {
+    border: 1px solid #84B4BD;
     background-color: white;
 }
 
 table {
-    color: #84B4BD;
+    color: #939393;
     width: 100%;
     text-align: center;
     border-collapse: collapse;
 }
 
 th {
-    padding: 5px;
-    font-size: 14px;
+    padding: 1vw;
+    font-size: 3vw;
     font-weight: lighter;
 }
 
 .book_button {
     color: white;
     font-family: "Century Gothic";
-    font-size: 17px;
+    font-size: 5vw;
     background-color: #84B4BD;
     padding: 8px 20px;
-    margin: 10px 105px;
-    border-radius: 5px;
+    margin: 5vw 19vw;
+    border-radius: 1vw;
     box-shadow: 0px;
     border: none;
+    display: block;
 }
 
+/** Credit: https://www.phpjabbers.com/free-availability-calendar-script/ **/
 
+.datetimepicker {
+    background: white;
+    border-radius: 1vw;
+    overflow: auto;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .176);
+    display: inline-block;
+    padding: 0vw 10vw 2vw;
+    max-width: 100%;
+}
 
+.datetimepicker + .datetimepicker {
+    margin-left: 15px;
+}
 
+.datetimepicker .paging {
+    text-align: center;
+    font-size: 4vw;
+    position: relative;
+
+}
+
+.datetimepicker .paging .month-name {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 2vw;
+}
+
+.datetimepicker .paging i {
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: middle;
+    position: absolute;
+    top: 0vw;
+    line-height: 24px;
+    cursor: pointer;
+    border-color: #84B4BD;
+    border-style: solid;
+    border-width: 2vw;
+}
+
+.datetimepicker .paging i.prev {
+    left: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-left-style: none;
+}
+
+.datetimepicker .paging i.next {
+    right: 0;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-right-style: none;
+}
+
+.datetimepicker table {
+    font-weight: 400;
+    font-size: 3vw;
+    color: #939393;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.datetimepicker table td {
+    text-align: center;
+    border: 1px solid #84B4BD;
+    padding: 3px;
+}
+
+.datetimepicker table td.near-month {
+    color: #ccc;
+}
+
+.datetimepicker table td.cur-date.cur-month {
+    background: #84B4BD;
+}
+
+.datetimepicker table thead {
+    font-weight: 700;
+}
+
+.datetimepicker table thead td {
+    border: none;
+    border-bottom: 2px solid #eee;
+    min-width: 40px;
+}

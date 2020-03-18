@@ -11,50 +11,50 @@ body {
 }
 
 .navigation_container {
-    width: 150px;
+    width: 32%;
     position: absolute;
 }
 
 .nav_logo {
-    max-width: 85%;
-    margin: 20px;
+    max-width: 75%;
+    margin: 5vw;
 }
 
 .nav_element {
     font-family: "Century Gothic";
     color: #84B4BD;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 4vw;
     display: flex;
-    padding: 35px 10px
+    padding: 6vw 2vw;
 }
 
 .info_image {
-    max-width: 100%;
+    width: 100%;
 }
 
 .info_box {
     position: absolute;
-    top: 450px;
-    left: 165px;
     opacity: 80%;
     text-align: center;
+    left: 35%;
+    top: 70%
 }
 
 .info_text {
     font-family: "Century Gothic";
     color: black;
     background: #F3F4F7;
-    font-size: 15px;
-    width: 300px;
-    height: 130px;
-    padding: 25px 20px;
-    border-radius: 5px;
+    font-size: 3.5vw;
+    width: 60vw;
+    height: 25vw;
+    padding: 3.5vw 3vw;
+    border-radius: 2vw;
 }
 
 .button {
     position: absolute;
-    right: 30px;
+    right: 5%;
 }
 
 #en, #da {
@@ -63,7 +63,8 @@ body {
 
 .button_lang {
     font-family: "Century Gothic";
-    margin: 20px 0;
+    font-size: 3vw;
+    margin: 3vw 0;
     float: right;
     color: #939393;
     position: relative;
@@ -71,7 +72,8 @@ body {
 
 .separator {
     font-family: "Century Gothic";
-    margin: 20px 4px;
+    font-size: 3vw;
+    margin: 3vw 1vw;
     float: right;
     color: #939393;
 }
