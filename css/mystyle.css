@@ -11,7 +11,7 @@ body {
 }
 
 .navigation_container {
-    width: 32%;
+    max-width: 32%;
     position: fixed;
 }
 
@@ -26,7 +26,7 @@ body {
     text-decoration: none;
     font-size: 4vw;
     display: flex;
-    padding: 6vw 2vw;
+    padding: 5vw 2vw;
 }
 
 .nav_element2 {
@@ -108,17 +108,18 @@ ul li {
 }
 
 .book_button {
-  font: bold 15px Century Gothic;
-  text-decoration: none;
-  background-color: #FFFFFF;
-  color: #84B4BD;
-  padding: 8px 16px 8px 16px;
-  border-top: 1px solid #CCCCCC;
-  border-right: 1px solid #CCCCCC;
-  border-bottom: 1px solid #CCCCCC;
-  border-left: 1px solid #CCCCCC;
-  border-radius: 5px;
-  margin-left: 110px;
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 5vw;
+    background-color: #84B4BD;
+    padding: 8px 20px;
+    margin: 5vw 16vw;
+    border-radius: 1vw;
+    box-shadow: 0px;
+    border: none;
+    display: block;
+    text-decoration: none;
+    width: 30vw;
 }
 
 .main_container {
@@ -132,19 +133,17 @@ ul li {
     font-family: "Century Gothic";
     color: #84B4BD;
     font-size: 3.9vw;
-    text-align: justify;
 }
 
 .question_heading {
     font-family: "Century Gothic";
     color: #84B4BD;
     font-size: 3.7vw;
-    text-align: justify;
+    margin: 2vw 0
 }
 
 .answer_text {
     font-family: "Century Gothic";
     color: #84B4BD;
     font-size: 3.5vw;
-    text-align: justify;
 }

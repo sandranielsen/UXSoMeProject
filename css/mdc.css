@@ -14,7 +14,6 @@ body {
     font-size: 5vw;
     font-family: 'Century Gothic';
     color: #84B4BD;
-
 }
 .subsection_container {
     width: 68%;
@@ -23,16 +22,13 @@ body {
     font-size: 3.5vw;
     font-family: 'Century Gothic';
     color: #84B4BD;
-    text-align: justify;
-
 }
-.moore {
 
+
+.moore {
     font-family: "Century Gothic";
     color: #84B4BD;
     font-size: 3.5vw;
-
-
 }
 
 .description {
@@ -45,14 +41,14 @@ body {
    margin-top: 5vw;
     margin-bottom: 5vw;
     display: flex;
-    max-width: 150%;
+    max-width: 100%;
     height: auto;
 }
 
 .fotka {
     display: flex;
-    margin-top: 5vw;
-    margin-bottom: 5vw;
-    max-width: 150%;
+    max-width: 100%;
     height: auto;
 }
+
+
