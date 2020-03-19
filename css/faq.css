@@ -1,0 +1,28 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F7;
+}
+
+.subsection_container {
+    width: 68%;
+    float: right;
+    padding: 9vw 5vw;
+
+}
+
+.subsection_image {
+    width: 90%;
+    margin: 3vw;
+    border-radius: 1vw;
+}
+
+
+
+
