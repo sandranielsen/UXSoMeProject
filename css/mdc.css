@@ -1,0 +1,58 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F7;
+}
+
+.subsubsection_headline {
+    font-size: 5vw;
+    font-family: 'Century Gothic';
+    color: #84B4BD;
+
+}
+.subsection_container {
+    width: 68%;
+    float: right;
+    padding: 9vw 5vw 9vw 1vw;
+    font-size: 3.5vw;
+    font-family: 'Century Gothic';
+    color: #84B4BD;
+    text-align: justify;
+
+}
+.moore {
+
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    font-size: 3.5vw;
+
+
+}
+
+.description {
+    font-size; 3.5vw;
+    font-family: "Century Gothic";
+    color: #84B4BD;
+}
+
+.mdc{
+   margin-top: 5vw;
+    margin-bottom: 5vw;
+    display: flex;
+    max-width: 150%;
+    height: auto;
+}
+
+.fotka {
+    display: flex;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    max-width: 150%;
+    height: auto;
+}
