@@ -132,14 +132,14 @@ ul li {
 .main_heading {
     font-family: "Century Gothic";
     color: #84B4BD;
-    font-size: 3.9vw;
+    font-size: 5vw;
 }
 
 .question_heading {
     font-family: "Century Gothic";
     color: #84B4BD;
-    font-size: 3.7vw;
-    margin: 2vw 0
+    font-size: 4vw;
+    margin: 3vw 0;
 }
 
 .answer_text {
