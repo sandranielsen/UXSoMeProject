@@ -29,6 +29,25 @@ body {
     padding: 6vw 2vw;
 }
 
+.nav_element2 {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    text-decoration: none;
+    font-size: 4vw;
+    display: flex;
+    padding-left: 2vw;
+}
+
+.subnav_element {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    text-decoration: none;
+    font-size: 4vw;
+    display: flex;
+    /*padding: 6vw 2vw;*/
+    margin-left: 25px;
+}
+
 .info_image {
     width: 100%;
 
@@ -86,4 +105,46 @@ body {
 ul li {
     width: auto;
     display: inline;
+}
+
+.book_button {
+  font: bold 15px Century Gothic;
+  text-decoration: none;
+  background-color: #FFFFFF;
+  color: #84B4BD;
+  padding: 8px 16px 8px 16px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-radius: 5px;
+  margin-left: 110px;
+}
+
+.main_container {
+    margin-top: 60px;
+    margin-right: 40px;
+    margin-left: 160px;
+    position: absolute;
+}
+
+.main_heading {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    font-size: 3.9vw;
+    text-align: justify;
+}
+
+.question_heading {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    font-size: 3.7vw;
+    text-align: justify;
+}
+
+.answer_text {
+    font-family: "Century Gothic";
+    color: #84B4BD;
+    font-size: 3.5vw;
+    text-align: justify;
 }
