@@ -31,6 +31,7 @@ body {
 
 .info_image {
     width: 100%;
+
 }
 
 .info_box {
@@ -38,7 +39,7 @@ body {
     opacity: 80%;
     text-align: center;
     left: 35%;
-    top: 70%
+    top: 75%
 }
 
 .info_text {
