@@ -1,0 +1,53 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3F4F7;
+}
+
+.subsection_container {
+    width: 68%;
+    float: right;
+    padding: 9vw 5vw 9vw 1vw;
+    font-family: 'Century Gothic';
+    color: #84B4BD;
+
+}
+
+#more {
+    display: none;
+}
+
+.subsection_headline {
+    font-size: 5vw;
+}
+
+.faq_question {
+    padding: 3vw 0vw;
+    font-size: 4vw;
+}
+
+.subsection_paragraph {
+    font-size: 3.5vw;
+}
+
+#myBtn {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 5vw;
+    background-color: #84B4BD;
+    padding: 8px 20px;
+    margin: 5vw 13vw;
+    border-radius: 1vw;
+    box-shadow: 0px;
+    border: none;
+    display: block;
+    width: 36vw;
+}
+
+
