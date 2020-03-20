@@ -122,7 +122,7 @@ ul li {
     font-size: 5vw;
     background-color: #84B4BD;
     padding: 8px 20px;
-    margin: 0vw 16vw;
+    margin: 0vw 16vw 5vw;
     border-radius: 1vw;
     box-shadow: 0px;
     border: none;
@@ -159,9 +159,3 @@ ul li {
     font-size: 3.5vw;
 }
 
-.main_container {
-    width: 68%;
-    float: right;
-    padding: 0 5vw 9vw 1vw;
-
-}
