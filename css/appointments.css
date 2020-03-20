@@ -10,6 +10,8 @@ body {
     background-color: #F3F4F7;
 }
 
+/** Main appointment section **/
+
 .appointment_container {
     font-family: "Century Gothic";
     color: #84B4BD;
@@ -19,50 +21,12 @@ body {
     float: right;
 }
 
+/** Calendar section **/
+
 .col-xss-4 {
     margin: 3vw 0;
     color: #939393;
     font-family: "Century Gothic";
-}
-
-
-.time_text {
-    font-family: "Century Gothic";
-    font-size: 4vw;
-    margin: 10px 0;
-}
-
-table,
-th,
-td {
-    border: 1px solid #84B4BD;
-    background-color: white;
-}
-
-table {
-    color: #939393;
-    width: 100%;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-th {
-    padding: 1vw;
-    font-size: 3vw;
-    font-weight: lighter;
-}
-
-.book_button {
-    color: white;
-    font-family: "Century Gothic";
-    font-size: 5vw;
-    background-color: #84B4BD;
-    padding: 8px 20px;
-    margin: 5vw 19vw;
-    border-radius: 1vw;
-    box-shadow: 0px;
-    border: none;
-    display: block;
 }
 
 /** Credit: https://www.phpjabbers.com/free-availability-calendar-script/ **/
@@ -153,4 +117,47 @@ th {
     border: none;
     border-bottom: 2px solid #eee;
     min-width: 40px;
+}
+
+/** Available time slots section **/
+
+.time_text {
+    font-family: "Century Gothic";
+    font-size: 4vw;
+    margin: 10px 0;
+}
+
+table,
+th,
+tr {
+    border: 1px solid #84B4BD;
+    background-color: white;
+}
+
+table {
+    color: #939393;
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 1vw;
+    font-size: 3vw;
+    font-weight: lighter;
+}
+
+/** Book button **/
+
+.book_button {
+    color: white;
+    font-family: "Century Gothic";
+    font-size: 5vw;
+    background-color: #84B4BD;
+    padding: 8px 20px;
+    margin: 5vw 14vw;
+    border-radius: 1vw;
+    box-shadow: 0px;
+    border: none;
+    display: block;
 }

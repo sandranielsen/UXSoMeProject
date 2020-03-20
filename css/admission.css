@@ -10,13 +10,14 @@ body {
     background-color: #F3F4F7;
 }
 
+/** Main article section **/
+
 .subsection_container {
     width: 68%;
     float: right;
     padding: 9vw 5vw 9vw 1vw;
     font-family: 'Century Gothic';
     color: #84B4BD;
-
 }
 
 #more {
@@ -35,6 +36,8 @@ body {
 .subsection_paragraph {
     font-size: 3.5vw;
 }
+
+/** Read more/less button **/
 
 #myBtn {
     color: white;

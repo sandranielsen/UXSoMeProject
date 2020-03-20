@@ -10,6 +10,8 @@ body {
     overflow-x: hidden;
 }
 
+/** Navigation **/
+
 .navigation_container {
     max-width: 32%;
     position: fixed;
@@ -48,6 +50,8 @@ body {
     margin-left: 25px;
 }
 
+/** Info section **/
+
 .info_image {
     width: 100%;
 
@@ -71,6 +75,8 @@ body {
     padding: 3.5vw 3vw;
     border-radius: 2vw;
 }
+
+/** Language switch section **/
 
 .button {
     position: absolute;
@@ -107,6 +113,8 @@ ul li {
     display: inline;
 }
 
+/** Book button **/
+
 .book_button {
     color: white;
     font-family: "Century Gothic";
@@ -121,6 +129,8 @@ ul li {
     text-decoration: none;
     width: 30vw;
 }
+
+/** Main article section **/
 
 .main_container {
     margin-top: 60px;

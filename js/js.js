@@ -1,7 +1,9 @@
+/** Read more/less button **/
+
 function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn");
+  let dots = document.getElementById("dots");
+  let moreText = document.getElementById("more");
+  let btnText = document.getElementById("myBtn");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
@@ -12,4 +14,17 @@ function myFunction() {
     btnText.innerHTML = "Read Less";
     moreText.style.display = "inline";
   }
-}
+};
+
+/** Available time slots section **/
+
+let table = document.getElementsByTagName('table')[0];
+if(table) table.onclick = function(e) {
+    let target = (e || window.event).target;
+    if (target.tagName in {TR:1, TH:1})
+        target.setAttribute('style', 'background-color: #F3F4F7');
+
+};
+
+
+
