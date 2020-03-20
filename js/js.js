@@ -26,5 +26,30 @@ if(table) table.onclick = function(e) {
 
 };
 
+/** Modal section **/
+// Get the modal
+var modal = document.getElementById("myModal");
 
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// Opens the modal when the users clicks on the button
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// Closes the modal When the user clicks on the cross
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// Closes the modal when the user clicks anywhere outside of it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
 
