@@ -8,6 +8,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: #F3F4F7
 }
 
 /** Navigation **/
@@ -156,4 +157,11 @@ ul li {
     font-family: "Century Gothic";
     color: #84B4BD;
     font-size: 3.5vw;
+}
+
+.main_container {
+    width: 68%;
+    float: right;
+    padding: 0 5vw 9vw 1vw;
+
 }
