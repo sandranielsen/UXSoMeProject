@@ -10,13 +10,13 @@ if(table) table.onclick = function(e) {
 
 /** Modal section **/
 // Get the modal
-var modal = document.getElementById("myModal");
+let modal = document.getElementById("myModal");
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+let btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+let span = document.getElementsByClassName("close")[0];
 
 // Opens the modal when the users clicks on the button
 btn.onclick = function() {
@@ -38,9 +38,9 @@ window.onclick = function(event) {
 /** Read more/less button **/
 
 function myFunction() {
-  var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
-  var btnText = document.getElementById("myBtn1");
+  let dots = document.getElementById("dots");
+  let moreText = document.getElementById("more");
+  let btnText = document.getElementById("myButton");
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
